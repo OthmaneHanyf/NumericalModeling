@@ -1,18 +1,5 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8"/>
-  <title>Marked in the browser</title>
-</head>
-<body>
-  <div id="content"></div>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script>
-    document.getElementById('content').innerHTML =
-      marked("$$ \frac{d}{dx} \left(-k\frac{du}{dx}\right) = f \hspace{.6cm} in \hspace{.1cm} ]0, L[, \hspace{.1cm} with \hspace{.1cm} k > 0");
-  </script>
-</body>
-</html>
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+
 <!-- ### Model and solve physical problems numerically with respect to thier mathematical model
 * Model 1 dimentional elliptic problem -->
 
